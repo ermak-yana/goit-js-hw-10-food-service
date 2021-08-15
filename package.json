@@ -9,7 +9,7 @@
     "build": "parcel build src/*.html --public-url /goit-js-hw-10-food-service.git/",
     "deploy": "gh-pages -d dist",
     "predeploy": "npm run build"
-  }, 
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ermak-yana/goit-js-hw-10-food-service.git"
