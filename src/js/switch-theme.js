@@ -4,6 +4,8 @@ const Theme = {
   };
   
   const inputSwitchEl = document.querySelector('#theme-switch-toggle');
+
+
   
   if (localStorage.getItem('theme') === Theme.DARK) {
     document.body.classList.add(Theme.DARK);
@@ -23,5 +25,4 @@ const Theme = {
       changeThemeClassBody(Theme.LIGHT, Theme.DARK);
     }
   };
-  
   inputSwitchEl.addEventListener('change', changeInputHandler);
