@@ -13,4 +13,4 @@ var e,t=arguments[3];!function(t,r){"object"==typeof exports&&"object"==typeof m
 },{"handlebars/dist/handlebars.runtime":"pAws"}],"QvaY":[function(require,module,exports) {
 "use strict";var e=r(require("./menu.json"));require("../css/styles.css");var s=r(require("./switch-theme.js")),t=r(require("../templates/menu-items.hbs"));function r(e){return e&&e.__esModule?e:{default:e}}const u=document.querySelector(".js-menu"),n=e.default.map(e=>(0,t.default)(e)).join("");u.insertAdjacentHTML("beforeend",n);
 },{"./menu.json":"NkM5","../css/styles.css":"krre","./switch-theme.js":"pE8F","../templates/menu-items.hbs":"DO4D"}]},{},["QvaY"], null)
-//# sourceMappingURL=/goit-js-hw-10-food-service.git/js.a58bba6f.js.map
+//# sourceMappingURL=/goit-js-hw-10-food-service.git/js.95909b01.js.map
